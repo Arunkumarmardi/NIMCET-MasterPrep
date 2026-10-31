@@ -1,0 +1,8 @@
+{
+  "name": "NIMCET MasterPrep — Bilingual Concept, 3D Lab & 1000-Mark Mock Suite",
+  "description": "Complete NIMCET MCA entrance preparation platform with English/Hindi bilingual deep concepts, interactive 2D/3D visual simulations, time-based high-yield study planner, categorized formula vault, mind maps, PYQ papers, 1000-mark simulated mock tests, offline access, and peer doubt forum.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
