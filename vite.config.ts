@@ -6,6 +6,7 @@ import {VitePWA} from 'vite-plugin-pwa';
 
 export default defineConfig(() => {
   return {
+    base: '/NIMCET-MasterPrep/',
     plugins: [
       react(),
       tailwindcss(),
@@ -13,30 +14,30 @@ export default defineConfig(() => {
         registerType: 'autoUpdate',
         includeAssets: ['icon.svg', 'apple-touch-icon.png', 'pwa-192x192.png', 'pwa-512x512.png', 'pwa-maskable-512x512.png'],
         manifest: {
-          id: '/',
+          id: '/NIMCET-MasterPrep/',
           name: 'NIMCET MasterPrep — Bilingual Concept, 3D Lab & 1000-Mark Mock Suite',
           short_name: 'NIMCET Prep',
-          description: 'Complete NIMCET MCA entrance preparation platform with English/Hindi bilingual deep concepts, interactive 2D/3D visual simulations, time-based high-yield study planner, formula vault, PYQ papers, and 1000-mark simulated mock tests.',
+          description: 'Complete NIMCET MCA entrance preparation platform with English/Hindi bilingual deep concepts, interactive 2D/3D visual simulations, time-based high-yield study planner, and adaptive 1000-mark mock tests.',
           theme_color: '#0f172a',
           background_color: '#f8fafc',
           display: 'standalone',
-          start_url: '/',
-          scope: '/',
+          start_url: '/NIMCET-MasterPrep/',
+          scope: '/NIMCET-MasterPrep/',
           icons: [
             {
-              src: '/pwa-192x192.png',
+              src: 'pwa-192x192.png',
               sizes: '192x192',
               type: 'image/png',
               purpose: 'any',
             },
             {
-              src: '/pwa-512x512.png',
+              src: 'pwa-512x512.png',
               sizes: '512x512',
               type: 'image/png',
               purpose: 'any',
             },
             {
-              src: '/pwa-maskable-512x512.png',
+              src: 'pwa-maskable-512x512.png',
               sizes: '512x512',
               type: 'image/png',
               purpose: 'maskable',
